@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nicolai.trivia.view.QuestionController">
+   <children>
+      <Label fx:id="lblQuestionNumber" layoutX="270.0" layoutY="29.0" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="302.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTimeLeft" layoutX="418.0" layoutY="29.0" prefHeight="27.0" prefWidth="148.0" text="Time Left:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="29.0" text="Question number: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="taQuestion" layoutX="120.0" layoutY="65.0" prefHeight="119.0" prefWidth="379.0" />
+      <JFXButton fx:id="btnAlternativeOne" layoutX="120.0" layoutY="200.0" onAction="#handleAlternativeOne" prefHeight="55.0" prefWidth="150.0" stylesheets="@../resources/common.css" />
+      <JFXButton fx:id="btnAlternativeFour" layoutX="343.0" layoutY="271.0" onAction="#handleAlternativeFour" prefHeight="55.0" prefWidth="150.0" stylesheets="@../resources/common.css" />
+      <JFXButton fx:id="btnAlternativeThree" layoutX="120.0" layoutY="271.0" onAction="#handleAlternativeThree" prefHeight="55.0" prefWidth="150.0" stylesheets="@../resources/common.css" />
+      <JFXButton fx:id="btnAlternativeTwo" layoutX="343.0" layoutY="200.0" onAction="#handleAlternativeTwo" prefHeight="55.0" prefWidth="150.0" stylesheets="@../resources/common.css" />
+      <Label fx:id="answerLabel" alignment="CENTER" layoutX="118.0" layoutY="350.0" prefHeight="27.0" prefWidth="379.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="okButton" layoutX="522.0" layoutY="350.0" onAction="#handleOK" prefHeight="25.0" prefWidth="56.0" stylesheets="@../resources/common.css" text="OK" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Nov 18 15:33:34 CET 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015f-cf8c-8742-0000060a1fd8 
+on database directory C:\Users\Nicolai\Private Projects\Trivia Game (Java FX)\database with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/C:/Users/Nicolai/Private%20Projects/Trivia%20Game%20(Java%20FX)/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=C:\Users\Nicolai\Private Projects\Trivia Game (Java FX)
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
